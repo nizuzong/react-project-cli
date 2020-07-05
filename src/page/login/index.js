@@ -24,7 +24,6 @@ const LoginPage = props => {
       }
     });
   };
-
   return (
     <div className="page-login">
       <Form onSubmit={handleSubmit} className="login-form">
